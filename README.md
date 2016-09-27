@@ -1,0 +1,2 @@
+# AFNetworking
+AFNetworking的简单封装framework静态库
