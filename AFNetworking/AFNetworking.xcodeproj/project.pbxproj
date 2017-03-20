@@ -74,9 +74,6 @@
 		E9354CFB1D9A7B5500D613B2 /* AFNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingTests.m; sourceTree = "<group>"; };
 		E9354CFD1D9A7B5500D613B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9354D071D9A7B7700D613B2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
-		E9354D1D1D9A7C6500D613B2 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		E9354D1E1D9A7C6500D613B2 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
-		E9354D1F1D9A7C6500D613B2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E9354D211D9A7C6500D613B2 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
 		E9354D221D9A7C6500D613B2 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
 		E9354D231D9A7C6500D613B2 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
@@ -151,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				E9354D711D9A7F4100D613B2 /* AFNetworking */,
-				E9354D1C1D9A7C6500D613B2 /* doc */,
 				E9354D201D9A7C6500D613B2 /* UIKit+AFNetworking */,
 				E9354CF01D9A7B5500D613B2 /* AFNetworking.h */,
 				E9354CF11D9A7B5500D613B2 /* Info.plist */,
@@ -167,16 +163,6 @@
 				E9354CFD1D9A7B5500D613B2 /* Info.plist */,
 			);
 			path = AFNetworkingTests;
-			sourceTree = "<group>";
-		};
-		E9354D1C1D9A7C6500D613B2 /* doc */ = {
-			isa = PBXGroup;
-			children = (
-				E9354D1D1D9A7C6500D613B2 /* CHANGELOG.md */,
-				E9354D1E1D9A7C6500D613B2 /* CONTRIBUTING.md */,
-				E9354D1F1D9A7C6500D613B2 /* README.md */,
-			);
-			path = doc;
 			sourceTree = "<group>";
 		};
 		E9354D201D9A7C6500D613B2 /* UIKit+AFNetworking */ = {
@@ -300,7 +286,7 @@
 				TargetAttributes = {
 					E9354CEC1D9A7B5500D613B2 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					E9354CF51D9A7B5500D613B2 = {
 						CreatedOnToolsVersion = 8.0;
@@ -509,6 +495,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -530,6 +517,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
