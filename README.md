@@ -1,7 +1,7 @@
 # AFNetworking
 AFNetworking的简单封装framework静态库
 
-AFNetworking源代码(https://github.com/AFNetworking/AFNetworking) 下载日期 2017年3月20日11:49:28
+AFNetworking源代码(https://github.com/AFNetworking/AFNetworking) 下载日期 2017年5月5日11:00:28
 
 clone项目之后直接运行AFNetworkingAgg即可得到编译好的AFNetworking.framework(真机和模拟器)
 
